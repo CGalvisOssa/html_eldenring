@@ -1,9 +1,79 @@
-.fondo{
-    background-color: brown;
+.fondo_head{
+    background-color: #494948;
+    border: 2px solid white;
+    width: 65vw;
+    margin-top: 3em ;
+    margin-left: 15em ;
+    margin-right: 0em;
+    margin-bottom:  2em; ;
+    padding: 3em;
+    text-align: center;
+    transition: 1s;
+}
+
+.fondo_head:hover{
+  background-color: #ef8b09;
+}
+
+#introduccion{
+    font-size: 1.4em;
+    text-align: center;
 }
 
 .mitexto{
     font-size: xx-large;
-    color: blue;
+    color: #ef8b09;
 
+}
+
+.fondobody{
+
+    background-color: black;
+}
+
+.subtitle{
+    font-size: 30px;
+}
+
+#mititulo{
+    font-size: 50px;
+}
+
+.build{
+    
+    border: 4px solid rgb(112, 107, 107);
+    padding: 1em 1em 1em 1em;
+    transition: 1s;
+    text-align: left;
+    font-size: 20px
+
+    width 100%; /* Ajusta el ancho del div */
+    max-width: 500px; /* Máximo ancho del div */
+    margin: 1em 4em 2em 4em; /* Centrar el div horizontalmente */
+    padding: 10px; /* Añadir padding alrededor del contenido */
+    border: 1px solid #ccc; /* Opcional: Añadir un borde */
+    box-sizing: border-box; /* Incluir padding y borde en el ancho y alto */
+    
+}
+
+#img_fuerza{
+    width: 100%; /* Ajustar la imagen al 100% del ancho del div */
+    height: auto; /* Mantener la proporción de la imagen */
+}
+
+.build:hover{
+    background-color: #ef8b09;
+}
+
+* {
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+h4{
+    padding-left: 2em;
+}
+
+h3{
+    padding-left: 2.4em ;
 }
